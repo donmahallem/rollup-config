@@ -11,7 +11,7 @@
                         "release": "patch"
                     },
                     {
-                        "type": "chore",
+                        "type": "docs",
                         "scope": "README",
                         "release": "patch"
                     }
