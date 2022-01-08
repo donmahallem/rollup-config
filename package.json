@@ -20,15 +20,13 @@
         "docs": "typedoc --options  ./typedoc.config.js",
         "prepublishOnly": "npm run test && npm run docs && npm run build",
         "version": "npm run build:readme && git add README.md",
-        "prepare": "npm run build",
-        "clean": "rimraf ./dist ./.nyc_output ./coverage ./docs",
-        "postclean": "npm run build"
+        "clean": "rimraf ./dist ./.nyc_output ./coverage ./docs"
     },
     "files": [
         "dist/*",
         "src/*"
     ],
-    "homepage": "https://donmahallem.github.io/js-libs/",
+    "homepage": "https://github.com/donmahallem/rollup-config/",
     "author": {
         "name": "donmahallem",
         "email": "donmahallem@users.noreply.github.com",
@@ -36,11 +34,11 @@
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/donmahallem/js-libs/issues"
+        "url": "https://github.com/donmahallem/rollup-config/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/donmahallem/js-libs.git"
+        "url": "https://github.com/donmahallem/rollup-config.git"
     },
     "engines": {
         "node": ">=14"
@@ -49,6 +47,7 @@
         "access": "public"
     },
     "devDependencies": {
+        "@rollup/plugin-commonjs": "*",
         "@rollup/plugin-json": "4.1.0",
         "@rollup/plugin-node-resolve": "13.1.3",
         "@rollup/plugin-replace": "3.0.1",
@@ -58,6 +57,7 @@
         "semantic-release": "18.0.1"
     },
     "peerDependencies": {
+        "@rollup/plugin-commonjs": "^21.0.1",
         "@rollup/plugin-json": "^4.1.0",
         "@rollup/plugin-node-resolve": "^13.0.0",
         "@rollup/plugin-replace": "^3.0.0",
