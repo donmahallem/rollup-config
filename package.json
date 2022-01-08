@@ -17,7 +17,7 @@
         "postlint": "prettier --config ./.prettierrc src/**/*.ts --check",
         "lint:fix": "eslint -c ./.eslintrc.cjs --ext .ts ./src --fix",
         "postlint:fix": "prettier --config ./.prettierrc src/**/*.ts --write",
-        "docs": "typedoc --options  ./typedoc.config.js",
+        "docs": "typedoc --options ./typedoc.json",
         "prepublishOnly": "npm run test && npm run docs && npm run build",
         "version": "npm run build:readme && git add README.md",
         "clean": "rimraf ./dist ./.nyc_output ./coverage ./docs"
@@ -68,6 +68,7 @@
         "semantic-release": "18.0.1",
         "ts-node": "10.4.0",
         "tslib": "2.3.1",
+        "typedoc": "0.22.10",
         "typescript": "4.5.4"
     },
     "peerDependencies": {
