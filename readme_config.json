@@ -1,5 +1,4 @@
 {
-    "extend": "../../readme_config.json",
     "badges": [
         {
             "alt": "Test",
@@ -36,5 +35,8 @@
             "url": "https://github.com/donmahallem/rollup-config/graphs/contributors",
             "img": "https://img.shields.io/github/contributors-anon/donmahallem/rollup-config"
         }
-    ]
+    ],
+    "line": "water",
+    "lineBreak": "\n",
+    "silent": true
 }
