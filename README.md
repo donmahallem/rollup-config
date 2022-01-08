@@ -31,3 +31,11 @@ Run the following command to install the package:
 ```
 npm install @donmahallem/rollup-config
 ```
+
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#usage)
+
+## ➤ Usage
+
+This is a helper package used by me to build packages with rollup. Use at your own risk!
