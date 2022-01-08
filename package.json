@@ -19,7 +19,7 @@
         "postlint:fix": "prettier --config ./.prettierrc src/**/*.ts --write",
         "docs": "typedoc --options ./typedoc.json",
         "prepublishOnly": "npm run test && npm run docs && npm run build",
-        "version": "npm run build:readme && git add README.md",
+        "version": "npm run build:readme",
         "clean": "rimraf ./dist ./.nyc_output ./coverage ./docs"
     },
     "files": [
