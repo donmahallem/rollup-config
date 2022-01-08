@@ -7,7 +7,8 @@
                 "releaseRules": [
                     {
                         "type": "chore",
-                        "scope": "deps-dev",
+                        "scope": "deps",
+                        "message": "*rollup*",
                         "release": "patch"
                     },
                     {
