@@ -1,6 +1,23 @@
 {
     "plugins": [
-        "@semantic-release/commit-analyzer",
+        [
+            "@semantic-release/commit-analyzer",
+            {
+                "preset": "angular",
+                "releaseRules": [
+                    {
+                        "type": "chore",
+                        "scope": "deps-dev",
+                        "release": "patch"
+                    },
+                    {
+                        "type": "chore",
+                        "scope": "README",
+                        "release": "patch"
+                    }
+                ]
+            }
+        ],
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         "@semantic-release/npm",
