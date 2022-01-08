@@ -8,13 +8,7 @@
                     {
                         "type": "chore",
                         "scope": "deps",
-                        "message": "@rollup*",
-                        "release": "patch"
-                    },
-                    {
-                        "type": "chore",
-                        "scope": "deps",
-                        "message": "rollup*",
+                        "message": "*rollup*",
                         "release": "patch"
                     },
                     {
