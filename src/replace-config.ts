@@ -1,6 +1,6 @@
 /*
  * Package @donmahallem/rollup-config
- * Source https://donmahallem.github.io/js-libs/
+ * Source https://github.com/donmahallem/rollup-config/
  */
 
 import replace from '@rollup/plugin-replace';
