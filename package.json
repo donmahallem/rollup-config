@@ -47,6 +47,7 @@
         "access": "public"
     },
     "devDependencies": {
+        "@appnest/readme": "1.2.7",
         "@donmahallem/eslint-config": "0.5.5",
         "@rollup/plugin-commonjs": "*",
         "@rollup/plugin-json": "4.1.0",
