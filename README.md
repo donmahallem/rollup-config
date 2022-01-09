@@ -14,7 +14,7 @@
 
 
 <p align="center">
-  <b>My Rollup config. Do not use!</b></br>
+  <b>My Rollup config. Use at your own risk!</b></br>
   <sub><sub>
 </p>
 
