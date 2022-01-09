@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/donmahallem/rollup-config/compare/v1.0.2...v1.0.3) (2022-01-09)
+
+
+### Bug Fixes
+
+* **semantic-release:** git store CHANGELOG.md on release ([#8](https://github.com/donmahallem/rollup-config/issues/8)) ([c486d8e](https://github.com/donmahallem/rollup-config/commit/c486d8e0f6a88fe19b9c3d37696d1e66d8a5d965))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
