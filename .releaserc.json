@@ -15,6 +15,12 @@
                         "type": "docs",
                         "scope": "README",
                         "release": "patch"
+                    },
+                    {
+                        "type": "chore",
+                        "scope": "deps",
+                        "message": "*lock file maintenance*",
+                        "release": "patch"
                     }
                 ]
             }
