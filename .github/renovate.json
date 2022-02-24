@@ -4,5 +4,14 @@
     ],
     "extends": [
         "@donmahallem"
+    ],
+    "packageRules": [
+        {
+            "matchPackagePatterns": [
+                "@rollup/*",
+                "rollup"
+            ],
+            "semanticCommitType": "fix"
+        }
     ]
 }
