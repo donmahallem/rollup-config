@@ -11,6 +11,7 @@
                 "@rollup/*",
                 "rollup"
             ],
+            "semanticCommitScope": "deps-dev",
             "semanticCommitType": "fix"
         }
     ]
