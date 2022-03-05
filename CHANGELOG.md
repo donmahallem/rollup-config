@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/donmahallem/rollup-config/compare/v2.0.0...v2.0.1) (2022-03-05)
+
+
+### Bug Fixes
+
+* **deps-dev:** update rollup packages ([#70](https://github.com/donmahallem/rollup-config/issues/70)) ([483125e](https://github.com/donmahallem/rollup-config/commit/483125e27f27675ff2991b979915705e80e45aae))
+
 # [2.0.0](https://github.com/donmahallem/rollup-config/compare/v1.0.18...v2.0.0) (2022-03-05)
 
 
