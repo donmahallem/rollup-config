@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/donmahallem/rollup-config/compare/v1.0.18...v2.0.0) (2022-03-05)
+
+
+### Features
+
+* 🎸 make rollup regular dependencies ([#69](https://github.com/donmahallem/rollup-config/issues/69)) ([f736d90](https://github.com/donmahallem/rollup-config/commit/f736d904b864a9adb276067a2fe2131674e9f5af))
+
+
+### BREAKING CHANGES
+
+* 🧨 y
+
 ## [1.0.18](https://github.com/donmahallem/rollup-config/compare/v1.0.17...v1.0.18) (2022-03-04)
 
 
