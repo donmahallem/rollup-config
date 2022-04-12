@@ -1,3 +1,10 @@
+## [2.0.14](https://github.com/donmahallem/rollup-config/compare/v2.0.13...v2.0.14) (2022-04-12)
+
+
+### Bug Fixes
+
+* **deps-dev:** update dependency @rollup/plugin-node-resolve to ~13.2.0 ([47d7a4b](https://github.com/donmahallem/rollup-config/commit/47d7a4bedb5faaa7d5012aa11bda9f1ea520e950))
+
 ## [2.0.13](https://github.com/donmahallem/rollup-config/compare/v2.0.12...v2.0.13) (2022-04-11)
 
 ## [2.0.12](https://github.com/donmahallem/rollup-config/compare/v2.0.11...v2.0.12) (2022-04-08)
