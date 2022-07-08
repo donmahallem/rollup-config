@@ -1,3 +1,10 @@
+## [2.0.50](https://github.com/donmahallem/rollup-config/compare/v2.0.49...v2.0.50) (2022-07-08)
+
+
+### Bug Fixes
+
+* **deps-dev:** update dependency rollup to ~2.76.0 ([75dea6b](https://github.com/donmahallem/rollup-config/commit/75dea6b75f11e60dbca73eff45796a1c64a994c6))
+
 ## [2.0.49](https://github.com/donmahallem/rollup-config/compare/v2.0.48...v2.0.49) (2022-07-04)
 
 ## [2.0.48](https://github.com/donmahallem/rollup-config/compare/v2.0.47...v2.0.48) (2022-06-27)
