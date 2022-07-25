@@ -1,3 +1,5 @@
+## [2.0.54](https://github.com/donmahallem/rollup-config/compare/v2.0.53...v2.0.54) (2022-07-25)
+
 ## [2.0.53](https://github.com/donmahallem/rollup-config/compare/v2.0.52...v2.0.53) (2022-07-18)
 
 ## [2.0.52](https://github.com/donmahallem/rollup-config/compare/v2.0.51...v2.0.52) (2022-07-15)
