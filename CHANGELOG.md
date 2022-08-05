@@ -1,3 +1,10 @@
+## [2.0.59](https://github.com/donmahallem/rollup-config/compare/v2.0.58...v2.0.59) (2022-08-05)
+
+
+### Bug Fixes
+
+* **deps-dev:** update dependency @rollup/plugin-commonjs to ~22.0.2 ([14d041c](https://github.com/donmahallem/rollup-config/commit/14d041c2f6d3ba3d0e5eb47e56eb642a455cbdf4))
+
 ## [2.0.58](https://github.com/donmahallem/rollup-config/compare/v2.0.57...v2.0.58) (2022-08-01)
 
 ## [2.0.57](https://github.com/donmahallem/rollup-config/compare/v2.0.56...v2.0.57) (2022-07-28)
