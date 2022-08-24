@@ -1,3 +1,10 @@
+## [2.0.66](https://github.com/donmahallem/rollup-config/compare/v2.0.65...v2.0.66) (2022-08-24)
+
+
+### Bug Fixes
+
+* **deps-dev:** update dependency @rollup/plugin-typescript to ~8.4.0 ([f0c1788](https://github.com/donmahallem/rollup-config/commit/f0c1788f47deb4b0871dfc4626d78f6be720ba61))
+
 ## [2.0.65](https://github.com/donmahallem/rollup-config/compare/v2.0.64...v2.0.65) (2022-08-22)
 
 ## [2.0.64](https://github.com/donmahallem/rollup-config/compare/v2.0.63...v2.0.64) (2022-08-19)
