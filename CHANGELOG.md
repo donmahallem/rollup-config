@@ -1,3 +1,10 @@
+## [2.0.82](https://github.com/donmahallem/rollup-config/compare/v2.0.81...v2.0.82) (2022-10-10)
+
+
+### Bug Fixes
+
+* **deps-dev:** update rollup packages ([0d168c0](https://github.com/donmahallem/rollup-config/commit/0d168c0ede23a3541da32b3a2169d02c9536cab1))
+
 ## [2.0.81](https://github.com/donmahallem/rollup-config/compare/v2.0.80...v2.0.81) (2022-10-10)
 
 ## [2.0.80](https://github.com/donmahallem/rollup-config/compare/v2.0.79...v2.0.80) (2022-10-09)
