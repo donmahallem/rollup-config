@@ -51,7 +51,7 @@
         "@donmahallem/eslint-config": "1.0.195",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
-        "@types/chai": "4.3.7",
+        "@types/chai": "4.3.8",
         "@types/mocha": "10.0.2",
         "@types/node": "18.18.4",
         "chai": "4.3.10",
