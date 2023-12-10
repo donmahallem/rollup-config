@@ -59,7 +59,7 @@
         "eslint": "8.55.0",
         "mocha": "10.2.0",
         "nyc": "15.1.0",
-        "prettier": "3.1.0",
+        "prettier": "3.1.1",
         "semantic-release": "21.1.2",
         "ts-node": "10.9.2",
         "tslib": "2.6.2",
