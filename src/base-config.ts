@@ -23,7 +23,6 @@ export interface IConfig {
     };
     /**
      * Path to the tsconfig path to use
-     *
      * @default './tsconfig.json'
      */
     tsconfig?: string;
@@ -32,19 +31,19 @@ export const baseConfig = (pkg: IPartialPackage, cfg: IConfig = {}): RollupOptio
     const output: OutputOptions[] = [];
     if (pkg.main && cfg?.output?.cjs !== false) {
         output.push({
-            generatedCode:{constBindings:true},
             file: pkg.main,
             footer: '// BUILD: __BUILD_DATE__\n\n',
             format: 'cjs',
+            generatedCode: { constBindings: true },
             sourcemap: true,
         });
     }
     if (pkg.module && cfg?.output?.esm !== false) {
         output.push({
-            generatedCode:{constBindings:true},
             file: pkg.module,
             footer: '// BUILD: __BUILD_DATE__\n\n',
             format: 'esm',
+            generatedCode: { constBindings: true },
             sourcemap: true,
         });
     }
