@@ -1,3 +1,18 @@
+## [2.0.100](https://github.com/donmahallem/rollup-config/compare/v2.0.99...v2.0.100) (2023-12-21)
+
+
+### Bug Fixes
+
+* **deps-dev:** update dependency @rollup/plugin-node-resolve to ~15.0.2 ([dd41057](https://github.com/donmahallem/rollup-config/commit/dd41057b9bbb9d4fd35aa03ba06f8a96000ff894))
+* **deps-dev:** update dependency @rollup/plugin-node-resolve to ~15.1.0 ([97024b6](https://github.com/donmahallem/rollup-config/commit/97024b62e08cd97af9ee4ba48711319d1ff69eb9))
+* **deps-dev:** update dependency @rollup/plugin-node-resolve to ~15.2.0 ([28f0340](https://github.com/donmahallem/rollup-config/commit/28f0340adb2269616ef65173e1f88214d680ce63))
+* **deps-dev:** update dependency @rollup/plugin-node-resolve to ~15.2.1 ([9ea6042](https://github.com/donmahallem/rollup-config/commit/9ea6042a7ea1df8a9184ae150d5732ce81cb246a))
+* **deps-dev:** update dependency @rollup/plugin-node-resolve to ~15.2.3 ([a3c4635](https://github.com/donmahallem/rollup-config/commit/a3c46354bd197209afaa6268675c0ff90942dc87))
+* **deps-dev:** update dependency @rollup/plugin-replace to ~5.0.4 ([590a177](https://github.com/donmahallem/rollup-config/commit/590a17778b39f6f12786a3fd90a42b7aa0fb1f69))
+* **deps-dev:** update dependency @rollup/plugin-replace to ~5.0.5 ([02e36b0](https://github.com/donmahallem/rollup-config/commit/02e36b0208d8cd3bf954a874edd770ae3c38cedb))
+* **deps-dev:** update rollup packages ([3d2a7f5](https://github.com/donmahallem/rollup-config/commit/3d2a7f524480b78224b3d0d5ded85c18da571eba))
+* several outdated methods updated ([#675](https://github.com/donmahallem/rollup-config/issues/675)) ([319e4f8](https://github.com/donmahallem/rollup-config/commit/319e4f840f3f071c9c21470ace6998cccb0d515f))
+
 ## [2.0.99](https://github.com/donmahallem/rollup-config/compare/v2.0.98...v2.0.99) (2023-01-02)
 
 ## [2.0.98](https://github.com/donmahallem/rollup-config/compare/v2.0.97...v2.0.98) (2022-12-26)
