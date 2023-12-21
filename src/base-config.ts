@@ -23,7 +23,6 @@ export interface IConfig {
     };
     /**
      * Path to the tsconfig path to use
-     *
      * @default './tsconfig.json'
      */
     tsconfig?: string;
@@ -35,7 +34,7 @@ export const baseConfig = (pkg: IPartialPackage, cfg: IConfig = {}): RollupOptio
             file: pkg.main,
             footer: '// BUILD: __BUILD_DATE__\n\n',
             format: 'cjs',
-            preferConst: true,
+            generatedCode: { constBindings: true },
             sourcemap: true,
         });
     }
@@ -44,7 +43,7 @@ export const baseConfig = (pkg: IPartialPackage, cfg: IConfig = {}): RollupOptio
             file: pkg.module,
             footer: '// BUILD: __BUILD_DATE__\n\n',
             format: 'esm',
-            preferConst: true,
+            generatedCode: { constBindings: true },
             sourcemap: true,
         });
     }
