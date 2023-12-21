@@ -3,16 +3,6 @@
         "master"
     ],
     "extends": [
-        "@donmahallem"
-    ],
-    "packageRules": [
-        {
-            "matchPackagePatterns": [
-                "@rollup/*",
-                "rollup"
-            ],
-            "semanticCommitScope": "deps-dev",
-            "semanticCommitType": "fix"
-        }
+        "github>donmahallem/renovate-config"
     ]
 }
