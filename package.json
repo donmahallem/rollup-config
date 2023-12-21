@@ -41,7 +41,7 @@
         "url": "https://github.com/donmahallem/rollup-config.git"
     },
     "engines": {
-        "node": ">=14"
+        "node": ">=18"
     },
     "publishConfig": {
         "access": "public"
