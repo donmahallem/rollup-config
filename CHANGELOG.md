@@ -1,3 +1,17 @@
+# [3.0.0](https://github.com/donmahallem/rollup-config/compare/v2.0.101...v3.0.0) (2023-12-21)
+
+
+### bump
+
+* **deps:** bump rollup versions ([#677](https://github.com/donmahallem/rollup-config/issues/677)) ([422e780](https://github.com/donmahallem/rollup-config/commit/422e7805d360a6387e670c7e4110677d7df7c07e))
+
+
+### BREAKING CHANGES
+
+* **deps:** bump rollup to 4+
+
+* fix(deps-dev): bump eslint packages
+
 ## [2.0.101](https://github.com/donmahallem/rollup-config/compare/v2.0.100...v2.0.101) (2023-12-21)
 
 ## [2.0.100](https://github.com/donmahallem/rollup-config/compare/v2.0.99...v2.0.100) (2023-12-21)
