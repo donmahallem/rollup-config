@@ -1,5 +1,5 @@
 {
-    "node-option": ["experimental-specifier-resolution=node", "loader=ts-node/esm"],
+    "node-option": [ "import=./ts-loader.js"],
     "spec": "src/**/*.spec.ts",
     "allow-uncaught": false,
     "async-only": false,
@@ -9,6 +9,7 @@
     "delay": false,
     "diff": true,
     "exit": false,
+    "require ":["ts-node/esm"],
     "extension": ["ts"],
     "inline-diffs": false,
     "package": "./package.json",

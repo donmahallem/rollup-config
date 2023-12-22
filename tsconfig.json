@@ -7,7 +7,7 @@
         "esModuleInterop": true,
         "declaration": true,
         "module": "ES2022",
-        "moduleResolution": "Bundler",
+        "moduleResolution": "Node",
         "strictNullChecks": true,
         "noUnusedLocals": true
     },
