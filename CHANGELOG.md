@@ -1,3 +1,19 @@
+# [4.0.0](https://github.com/donmahallem/rollup-config/compare/v3.0.0...v4.0.0) (2023-12-22)
+
+
+### Build System
+
+* **tsc:** update build options for rollup config ([#679](https://github.com/donmahallem/rollup-config/issues/679)) ([7b57b86](https://github.com/donmahallem/rollup-config/commit/7b57b86e477fdf8e81575ab7c8dde9a5b90abf6d))
+
+
+### BREAKING CHANGES
+
+* **tsc:** better make it major
+
+* test(mocha): remove unused config file
+
+* test(c8): replace nyc with c8 for coverage summary
+
 # [3.0.0](https://github.com/donmahallem/rollup-config/compare/v2.0.101...v3.0.0) (2023-12-21)
 
 
