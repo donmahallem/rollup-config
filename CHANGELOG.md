@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/donmahallem/rollup-config/compare/v4.0.0...v4.0.1) (2023-12-22)
+
+
+### Bug Fixes
+
+* **npm:** fix export declerations 4real ([#681](https://github.com/donmahallem/rollup-config/issues/681)) ([e63ef0b](https://github.com/donmahallem/rollup-config/commit/e63ef0b531e369d36025e67980f8d2cac51e377f))
+
 # [4.0.0](https://github.com/donmahallem/rollup-config/compare/v3.0.0...v4.0.0) (2023-12-22)
 
 
