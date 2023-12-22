@@ -3,10 +3,11 @@
     "version": "4.0.0",
     "description": "My Rollup config. Use at your own risk!",
     "exports": {
-        "default": "./dist/cjs/index.js",
-        "module": "./dist/esm/index.js",
-        "types": "./dist/types/index.d.ts"
+        "import": "./dist/esm/index.js",
+        "require": "./dist/cjs/index.js",
+        "default": "./dist/cjs/index.js"
     },
+    "types": "./dist/types/index.d.ts",
     "type": "module",
     "private": false,
     "scripts": {
