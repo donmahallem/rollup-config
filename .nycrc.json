@@ -11,9 +11,6 @@
     "extension": [
         ".ts"
     ],
-    "require": [
-        "ts-node/register"
-    ],
     "reporter": [
         "json",
         "html",

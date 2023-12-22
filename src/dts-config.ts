@@ -4,8 +4,8 @@
  */
 
 import dts from 'rollup-plugin-dts';
-import { setupReplacePlugin } from './replace-config';
-import type { IPartialPackage } from './partial-pkg';
+import { setupReplacePlugin } from './replace-config.js';
+import type { IPartialPackage } from './partial-pkg.js';
 import type { RollupOptions } from 'rollup';
 import type { Options as DtsOptions } from 'rollup-plugin-dts';
 
