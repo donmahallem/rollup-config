@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
         "target": "ESNext",
-        "module": "commonjs",
         "outDir": "./dist",
         "rootDir": "./src",
         "sourceMap": true,
         "esModuleInterop": true,
         "declaration": true,
-        "moduleResolution": "node",
+        "module": "ES2022",
+        "moduleResolution": "Bundler",
         "strictNullChecks": true,
         "noUnusedLocals": true
     },

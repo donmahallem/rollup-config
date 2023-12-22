@@ -3,9 +3,9 @@
  * Source https://github.com/donmahallem/rollup-config/
  */
 
-import replace from '@rollup/plugin-replace';
+import { default as replace } from '@rollup/plugin-replace';
 import { Plugin } from 'rollup';
-import { IPartialPackage } from './partial-pkg';
+import { IPartialPackage } from './partial-pkg.js';
 
 /**
  * @param {IPartialConfig} pkg package.json to use

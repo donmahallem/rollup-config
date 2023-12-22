@@ -8,8 +8,8 @@ import json, { RollupJsonOptions } from '@rollup/plugin-json';
 import nodeResolve, { RollupNodeResolveOptions } from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 import { RollupOptions, OutputOptions, OutputPlugin } from 'rollup';
-import { IPartialPackage } from './partial-pkg';
-import { setupReplacePlugin } from './replace-config';
+import { setupReplacePlugin } from './replace-config.js';
+import type { IPartialPackage } from './partial-pkg.js';
 
 export interface IConfig {
     output?: {

@@ -6,7 +6,7 @@
 import { expect } from 'chai';
 import 'mocha';
 import { RollupOptions } from 'rollup';
-import { baseConfig } from './base-config';
+import { baseConfig } from './base-config.js';
 
 describe('index', (): void => {
     it('should set all plugins with default config', (): void => {

@@ -7,13 +7,15 @@
         "module": "./dist/esm/index.js",
         "types": "./dist/types/index.d.ts"
     },
+    "main": "./dist/cjs/index.js",
+    "type": "module",
     "private": false,
     "scripts": {
         "build": "npm run build:esm && npm run build:cjs",
         "build:esm": "tsc --project ./tsconfig.dist-esm.json",
         "build:cjs": "tsc --project ./tsconfig.dist-cjs.json",
         "build:readme": "npx @appnest/readme generate --input ./package_readme_blueprint.md --config readme_config.json",
-        "test": "mocha --config ./.mocharc.yml",
+        "test": "mocha --config ./.mocharc.json",
         "test:coverage": "nyc --nycrc-path ./.nycrc.json npm run test",
         "lint": "eslint -c ./.eslintrc.cjs --ext .ts ./src",
         "postlint": "prettier --config ./.prettierrc src/**/*.ts --check",
