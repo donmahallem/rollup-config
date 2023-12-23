@@ -13,4 +13,9 @@ export interface IPartialPackage {
     peerDependencies?: { [key: string]: string };
     types?: string;
     version?: string;
+    exports?: {
+        default?: string;
+        import?: string;
+        require?: string;
+    };
 }
