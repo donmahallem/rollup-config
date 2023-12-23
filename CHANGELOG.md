@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/donmahallem/rollup-config/compare/v4.0.1...v4.1.0) (2023-12-23)
+
+
+### Features
+
+* **npm:** check for export fields in package.json ([#682](https://github.com/donmahallem/rollup-config/issues/682)) ([f4a665b](https://github.com/donmahallem/rollup-config/commit/f4a665b06124cf14e5f219b96a8ab6eff9ccb497))
+
 ## [4.0.1](https://github.com/donmahallem/rollup-config/compare/v4.0.0...v4.0.1) (2023-12-22)
 
 
