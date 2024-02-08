@@ -62,7 +62,7 @@
         "chai": "5.0.3",
         "colors": "1.4.0",
         "eslint": "8.56.0",
-        "mocha": "10.2.0",
+        "mocha": "10.3.0",
         "nyc": "15.1.0",
         "prettier": "3.2.5",
         "semantic-release": "23.0.2",
