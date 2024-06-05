@@ -1,3 +1,10 @@
+## [4.1.32](https://github.com/donmahallem/rollup-config/compare/v4.1.31...v4.1.32) (2024-06-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-replace to ~5.0.7 ([6faa06c](https://github.com/donmahallem/rollup-config/commit/6faa06c740ddfbcc24885a8986e9d2260e3d9c93))
+
 ## [4.1.31](https://github.com/donmahallem/rollup-config/compare/v4.1.30...v4.1.31) (2024-06-05)
 
 
