@@ -55,7 +55,7 @@
         "@donmahallem/eslint-config": "2.0.25",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
-        "@types/chai": "5.0.0",
+        "@types/chai": "5.0.1",
         "@types/mocha": "10.0.9",
         "@types/node": "20.17.1",
         "c8": "10.1.2",
