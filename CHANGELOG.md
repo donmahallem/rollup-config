@@ -1,3 +1,10 @@
+## [4.1.75](https://github.com/donmahallem/rollup-config/compare/v4.1.74...v4.1.75) (2025-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to ~4.29.2 ([#1010](https://github.com/donmahallem/rollup-config/issues/1010)) ([70ed148](https://github.com/donmahallem/rollup-config/commit/70ed148a1716e14c230b463933630737553b5768))
+
 ## [4.1.74](https://github.com/donmahallem/rollup-config/compare/v4.1.73...v4.1.74) (2024-12-21)
 
 
