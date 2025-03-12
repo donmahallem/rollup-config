@@ -1,3 +1,10 @@
+## [4.1.95](https://github.com/donmahallem/rollup-config/compare/v4.1.94...v4.1.95) (2025-03-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-node-resolve to ~16.0.1 ([#1067](https://github.com/donmahallem/rollup-config/issues/1067)) ([a99a309](https://github.com/donmahallem/rollup-config/commit/a99a3097c2111297c07d2e7d707166aa682f796e))
+
 ## [4.1.94](https://github.com/donmahallem/rollup-config/compare/v4.1.93...v4.1.94) (2025-03-10)
 
 ## [4.1.93](https://github.com/donmahallem/rollup-config/compare/v4.1.92...v4.1.93) (2025-03-08)
