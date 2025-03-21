@@ -1,3 +1,10 @@
+## [4.1.99](https://github.com/donmahallem/rollup-config/compare/v4.1.98...v4.1.99) (2025-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup-plugin-dts to ~6.2.1 ([#1074](https://github.com/donmahallem/rollup-config/issues/1074)) ([552d250](https://github.com/donmahallem/rollup-config/commit/552d2501ac897b38e638b77cb4190cee9cb2e8ca))
+
 ## [4.1.98](https://github.com/donmahallem/rollup-config/compare/v4.1.97...v4.1.98) (2025-03-19)
 
 
