@@ -1,6 +1,6 @@
 {
     "name": "@donmahallem/rollup-config",
-    "version": "4.1.131",
+    "version": "4.1.132",
     "description": "My Rollup config. Use at your own risk!",
     "exports": {
         "import": "./dist/esm/index.js",
