@@ -45,7 +45,8 @@
         "node": ">=22"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "provenance": true
     },
     "devDependencies": {
         "@appnest/readme": "1.2.7",
