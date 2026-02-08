@@ -4,16 +4,13 @@
     "description": "My Rollup config. Use at your own risk!",
     "exports": {
         "import": "./dist/esm/index.js",
-        "require": "./dist/cjs/index.js",
-        "default": "./dist/cjs/index.js"
+        "default": "./dist/esm/index.js"
     },
     "types": "./dist/types/index.d.ts",
     "type": "module",
     "private": false,
     "scripts": {
-        "build": "npm run build:esm && npm run build:cjs",
-        "build:esm": "tsc --project ./tsconfig.dist-esm.json",
-        "build:cjs": "tsc --project ./tsconfig.dist-cjs.json",
+        "build": "tsc --project ./tsconfig.dist-esm.json",
         "build:readme": "npx @appnest/readme generate --input ./package_readme_blueprint.md --config readme_config.json",
         "test": "mocha --config ./.mocharc.json",
         "test:coverage": "c8 --config ./.nycrc.json npm run test",
@@ -45,7 +42,7 @@
         "url": "https://github.com/donmahallem/rollup-config.git"
     },
     "engines": {
-        "node": ">=18"
+        "node": ">=22"
     },
     "publishConfig": {
         "access": "public"
