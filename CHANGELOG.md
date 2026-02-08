@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/donmahallem/rollup-config/compare/v4.1.141...v4.2.0) (2026-02-08)
+
+
+### Features
+
+* bump to node 22 ([#1198](https://github.com/donmahallem/rollup-config/issues/1198)) ([4063635](https://github.com/donmahallem/rollup-config/commit/4063635a126ca164fc782c83d61f69b8956d7fcf))
+
 ## [4.1.141](https://github.com/donmahallem/rollup-config/compare/v4.1.140...v4.1.141) (2025-08-07)
 
 
