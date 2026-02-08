@@ -12,15 +12,8 @@ import { setupReplacePlugin } from './replace-config.js';
 import type { IPartialPackage } from './partial-pkg.js';
 
 export interface IConfig {
-    output?: {
-        cjs?: boolean;
-        esm?: boolean;
-    };
-    plugins?: {
-        commonjs?: false | RollupCommonJSOptions;
-        nodeResolve?: RollupNodeResolveOptions;
-        json?: false | RollupJsonOptions;
-    };
+    output?: { cjs?: boolean; esm?: boolean };
+    plugins?: { commonjs?: false | RollupCommonJSOptions; nodeResolve?: RollupNodeResolveOptions; json?: false | RollupJsonOptions };
     /**
      * Path to the tsconfig path to use
      * @default './tsconfig.json'
@@ -50,26 +43,14 @@ export const baseConfig = (pkg: IPartialPackage, cfg: IConfig = {}): RollupOptio
         });
     }
     const plugins: OutputPlugin[] = [
-        nodeResolve(
-            cfg.plugins?.nodeResolve || {
-                preferBuiltins: true,
-            }
-        ),
-        typescript({
-            tsconfig: cfg.tsconfig || './tsconfig.json',
-        }),
+        nodeResolve(cfg.plugins?.nodeResolve || { preferBuiltins: true }),
+        typescript({ tsconfig: cfg.tsconfig || './tsconfig.json' }),
     ];
     if (cfg.plugins?.commonjs !== false) {
         plugins.push(commonjs(cfg.plugins?.commonjs));
     }
     if (cfg.plugins?.json !== false) {
-        plugins.push(
-            json(
-                cfg.plugins?.json || {
-                    compact: true,
-                }
-            )
-        );
+        plugins.push(json(cfg.plugins?.json || { compact: true }));
     }
     plugins.push(setupReplacePlugin(pkg));
     return {
