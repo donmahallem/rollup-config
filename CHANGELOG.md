@@ -1,3 +1,5 @@
+## [4.2.16](https://github.com/donmahallem/rollup-config/compare/v4.2.15...v4.2.16) (2026-04-13)
+
 ## [4.2.15](https://github.com/donmahallem/rollup-config/compare/v4.2.14...v4.2.15) (2026-04-06)
 
 ## [4.2.14](https://github.com/donmahallem/rollup-config/compare/v4.2.13...v4.2.14) (2026-04-01)
