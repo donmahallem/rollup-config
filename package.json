@@ -52,7 +52,7 @@
         "@appnest/readme": "1.2.7",
         "@donmahallem/eslint-config": "2.2.2",
         "@semantic-release/changelog": "7.0.0",
-        "@semantic-release/git": "11.0.0",
+        "@semantic-release/git": "11.0.1",
         "@types/chai": "5.2.3",
         "@types/mocha": "10.0.10",
         "@types/node": "25.9.5",
