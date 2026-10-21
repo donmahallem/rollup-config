@@ -1,3 +1,10 @@
+## [4.2.68](https://github.com/donmahallem/rollup-config/compare/v4.2.67...v4.2.68) (2026-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rollup/plugin-typescript to ~12.3.1 ([#1374](https://github.com/donmahallem/rollup-config/issues/1374)) ([3516174](https://github.com/donmahallem/rollup-config/commit/3516174c04b60f931bb46d068c5db5a50ba8c59c))
+
 ## [4.2.67](https://github.com/donmahallem/rollup-config/compare/v4.2.66...v4.2.67) (2026-10-20)
 
 
